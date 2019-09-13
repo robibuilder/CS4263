@@ -1,4 +1,0 @@
-In order to complete this project I started the appengine tutorial that google has for java. The app works by using an HTML file to define the layout of the page and then uses a java file to do any logic and then send the output to the HTML page. 
-The Java file to change is in src/main/java/myapp/DemoServlet.java and the HTML file is in src/main/webappindex.html. The files are included for easy reference to change the files given in the appengine. Next you will want to run the instance using the command
-mvn appenine:run and then test the code. It uses the java.util.random to generate the random number. Next you will want to create the app with 'gcloud app create' and then stage your project for deployment using the command
-'gcloud config set project {{your project name}}. Then deploy the app using mvn appengine:deploy. The URL for our deployed app is magnetic-quasar-252617.appspot.com
