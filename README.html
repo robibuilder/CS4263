@@ -1,0 +1,12 @@
+For this project I started a tutorial on starting an instance within Google's Comput Engine and from there I was linked to another tutorial for implementing Java.  I used TomCat, which is an open source version of the Java Servlet.
+
+The file to edit is found in /opt/tomcat/conf/... Here you can find the files for setting up an new using and adding admin priveleges for the TomCat splash page login.  
+
+To run the instance cd to /opt/tomcat and run the following:
+
+sudo systemctl restart tomcat
+sudo systemctl start tomcat
+sude systemctl status tomcat
+
+The status should provide no red/error output. However running "sudo journalctl -xn" will provide error handling as to why tomcat did not run correctly.
+  
